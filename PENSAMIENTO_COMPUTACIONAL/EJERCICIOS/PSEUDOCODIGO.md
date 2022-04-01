@@ -206,7 +206,8 @@ Algoritmo sin_titulo
 		
 	FinAlgoritmo
 	
-	![image](https://user-images.githubusercontent.com/102439544/161181672-491c009d-7336-4300-91d2-dd0469e2ac78.png)
+	
+![image](https://user-images.githubusercontent.com/102439544/161181672-491c009d-7336-4300-91d2-dd0469e2ac78.png)
 
 
 13. Realizar un algoritmo y diagrama de flujo para un programa que permita ingresar un nombre y una cantidad numérica para que así después el programa escriba este nombre tantas veces como su cantidad ingresada.
@@ -229,7 +230,8 @@ Algoritmo nombre_X_veces
 	
 	FinAlgoritmo
 	
-	![image](https://user-images.githubusercontent.com/102439544/161186397-d3f8cbfc-8a51-4a12-b0a5-1c95004594ea.png)
+	
+![image](https://user-images.githubusercontent.com/102439544/161186397-d3f8cbfc-8a51-4a12-b0a5-1c95004594ea.png)
 
 
 15. Realiza un algoritmo y diagrama de flujo de un programa que solicita números al usuario y haga la suma de todos ellos. El algoritmo debe solicitar números siempre y cuando el número ingresado sea positivo, si el usuario ingresa un número no positivo el algoritmo debe terminar e imprimir la suma de los números positivos.
