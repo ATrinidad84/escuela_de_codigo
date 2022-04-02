@@ -5,37 +5,38 @@ Ingresa al siguiente link para el resumen final
 
 https://docs.google.com/presentation/d/17LildSvlBpnu-FRpMW1ITRiO21_f3Z0cF9q1Zrs6K5U/edit?usp=sharing
 
-Algoritmo adivina
+Algoritmo Adivina_el_numero
 
 	intentos=10
-  
-	num_adivinar = azar(100)+1
-    
-    
-    Escribir "Adivine el numero:"
-    
-    Leer num_ingresado
-    
-    Mientras num_adivinar<>num_ingresado & intentos > 1 Hacer
-    
-        Si num_adivinar>num_ingresado Entonces
-            Escribir "Es mayor"
+	numadivinar = azar(100)+1
+   	Escribir "JUEGO ADIVINA EL NUMERO" 
+	Escribir "Por favor ingresa un número:"
+    	Leer num
+	
+	Mientras numadivinar<>num Y intentos > 1 Hacer
+		
+        Si numadivinar>num Entonces
+            Escribir "El número es mayor, intente nuevamente"
         Sino 
-            Escribir "Es menor"
-        FinSi
+            Escribir "El número es menor, intente nuevamente"
+   	FinSi
         intentos=intentos-1
-        Escribir "Quedan ",intentos," intentos:"
-        Leer num_ingresado
-    FinMientras
+        Escribir "Aún te quedan:  ",intentos," intentos:"
+        Leer num
+    	FinMientras
     
-    Si num_adivinar=num_ingresado Entonces
-		inten_reales=10-intentos
-        Escribir "Usted adivino en ",inten_reales," intentos."
-    Sino
-        Escribir "El numero era: ",num_adivinar
-    FinSi
+    	Si numadivinar=num Entonces
+		intentos_tot=(10-intentos)+1
+        Escribir "Bien hecho, has adivinado en ",intentos_tot," intentos."
+    	Sino
+        Escribir "¡Lástima no has adivinado! El número era:  ",numadivinar
+    	FinSi
     
-FinAlgoritmo
+	FinAlgoritmo
+	
+	
+![image](https://user-images.githubusercontent.com/102439544/161402988-6e8e2d59-96bb-4707-afd7-4ad7aba60658.png)
 
 
-![image](https://user-images.githubusercontent.com/102439544/161396356-5ee3d376-e5b9-4d0f-bc90-d276deb2f650.png)
+
+
